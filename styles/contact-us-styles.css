@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: Inter, arial;
+  margin: 0px;
+}
+
+h1 {
+  border: 1px solid black;
+  padding: 30px;
+  margin: 0;
+  margin-bottom: 50px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+
+input {
+  border-radius: 5px;
+  margin: 0px 0;
+  padding: 10px 0;
+  padding-left: 15px;
+}
+
+label {
+  font-size: 20px;
+  color: black;
+}
+
+.message-box {
+  padding-bottom: 70px;
+}
+
+.error {
+  font-size: 10px;
+  color: red;
+  padding: 5px 0px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 0;
+  background-color: #fac8b88f;
+  color: black;
+  margin-bottom: 43px;
+  cursor: pointer;
+}
+
+footer {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  margin-top: 50px;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+footer h3 {
+  margin: 0;
+}
+
+
+@media(min-width:1024px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 400px;
+  }
+}
+
+@media(min-width:768px) {
+  h1 {
+    border: 1px solid black;
+    padding: 60px;
+    margin: 0;
+    margin-bottom: 50px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: black;
+    color: white;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+  }
+
+  button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    background-color: #fac8b88f;
+    color: black;
+    margin-bottom: 60px;
+  }
+
+  footer {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    margin-top: 92px;
+  }
+}

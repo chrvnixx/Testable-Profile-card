@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: Inter, arial;
+}
+
+h1 {
+  border: 1px solid black;
+  padding: 30px;
+  margin: 0;
+  margin-bottom: 20px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.bio-container {
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.goals-container {
+  background-color: black;
+  color: white;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.confidence-container {
+  color: black;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.future-container {
+  background-color: black;
+  color: white;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.extra-container {
+  color: black;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+@media(min-width: 768px) {
+  .bio-container {
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .goals-container {
+    background-color: black;
+    color: white;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .confidence-container {
+    color: black;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .future-container {
+    background-color: black;
+    color: white;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .extra-container {
+    color: black;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+  }
+}

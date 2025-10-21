@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <article data-testid="test-profile-card">
+      <div>
+        <figure class="banner-image-container">
+          <img
+            src="https://images.unsplash.com/photo-1556139943-4bdca53adf1e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI0fHxiYW5uZXIlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=400"
+            alt="Banner image featuring sea waves"
+            class="banner-image"
+            data-testid="test-user-banner-image"
+          />
+        </figure>
+        <div class="avatar-socials-container">
+          <figure class="avatar-container">
+            <img
+              src="https://images.unsplash.com/photo-1760497925596-a6462350c583?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8dG93SlpGc2twR2d8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=400"
+              alt="profile picture of kurt cobain"
+              data-testid="test-user-avatar"
+              class="avatar"
+            />
+          </figure>
+          <nav data-testid="test-user-social-links">
+            <a
+              href="https://x.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-twitter"
+            >
+              <img
+                class="x-logo"
+                src="https://img.icons8.com/?size=100&id=phOKFKYpe00C&format=png&color=000000"
+                alt="twitter logo"
+              />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-linkedin"
+            >
+              <img
+                class="linkedin-logo"
+                src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000"
+                alt="linkedin logo"
+              />
+            </a>
+
+            <a
+              href="https://www.github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-github"
+            >
+              <img
+                class="github-logo"
+                src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000"
+                alt="github logo"
+              />
+            </a>
+          </nav>
+        </div>
+      </div>
+
+      <header>
+        <h2 data-testid="test-user-name">Adeola Adekola</h2>
+        <p class="user-role">(Frontend Dev)</p>
+      </header>
+      <p data-testid="test-user-bio" class="bio">
+        I channel raw, emotionally resonant aesthetic into tangible design,
+        while specializing in products that prioritizes honesty, utility , and
+        stripped-down form. I am anti design, rejecting the slick and over
+        produced in favor of meaningful authentic user experiences.
+      </p>
+
+      <p data-testid="test-user-time" class="time">
+        <script>
+          const timeElement = document.querySelector(
+            '[data-testid="test-user-time"]'
+          );
+
+          function updateTime() {
+            timeElement.textContent = "Time:  " + Date.now() + "ms";
+          }
+          updateTime();
+
+          setInterval(updateTime, 1000);
+        </script>
+      </p>
+      <div class="hobbies-dislikes">
+        <section data-testid="test-user-hobbies">
+          <div class="hobbies-lists">
+            <h3 class="hobbies">Hobbies</h3>
+            <ul>
+              <li>Driving</li>
+              <li>Bird-watching</li>
+              <li>Photography</li>
+              <li>Music-Production</li>
+            </ul>
+          </div>
+        </section>
+
+        <section data-testid="test-user-dislikes">
+          <div class="dislike-lists">
+            <h3 class="dislikes">Dislikes</h3>
+            <ul>
+              <li>lack of Urgency</li>
+              <li>Insurbodination</li>
+              <li>slow delivery</li>
+              <li>Fish</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <nav class="contact-about">
+        <a href="contact-us.html">Contact Us</a>
+        <a href="about-me.html">About Me</a>
+      </nav>
+    </article>
+  </body>
+</html>
