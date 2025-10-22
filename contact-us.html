@@ -8,6 +8,93 @@
   </head>
   <body>
     <h1>Contact Us</h1>
+    <div class="main">
+      <form id="contactForm">
+        <div class="input-control">
+          <label for="username">Full Name</label>
+          <input
+            data-testid="test-contact-name"
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Full Name"
+            aria-describedby="username-error"
+          />
+          <div
+            data-testid="test-contact-error-name"
+            id="username-error"
+            class="error"
+          ></div>
+        </div>
+        <div class="input-control">
+          <label for="email">Email</label>
+          <input
+            data-testid="test-contact-email"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example123@xyz.com"
+            aria-describedby="email-error"
+          />
+          <div
+            data-testid="test-contact-error-email"
+            id="email-error"
+            class="error"
+          ></div>
+        </div>
+        <div class="input-control">
+          <label for="subject">Subject </label>
+          <input
+            data-testid="test-contact-subject"
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Subject"
+            aria-describedby="subject-error"
+          />
+          <div
+            data-testid="test-contact-error-subject"
+            id="subject-error"
+            class="error"
+          ></div>
+        </div>
+        <div class="input-control">
+          <label for="message">Message</label>
+          <input
+            data-testid="test-contact-message"
+            type="text"
+            id="message"
+            name="message"
+            placeholder="Your message"
+            class="message-box"
+            aria-describedby="message-error"
+          />
+          <div
+            data-testid="test-contact-error-message"
+            id="message-error"
+            class="error"
+          ></div>
+        </div>
+
+        <button data-testid="test-contact-submit" type="submit">
+          Send message
+        </button>
+
+        <div
+          data-testid="test-contact-success"
+          id="success"
+          class="success"
+        ></div>
+      </form>
+      <footer>
+        <h3>Contact Information</h3>
+        <p>If you have any questions feel free to get in touch with us!</p>
+
+        <p>2347069360856</p>
+        <p>emmanueladekola91@gmail.com</p>
+        <p>202ChristinaDR, East Avenue, Il 6011B</p>
+      </footer>
+    </div>
 
     <form id="contactForm">
       <div class="input-control">

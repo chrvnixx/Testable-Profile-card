@@ -8,13 +8,8 @@ body {
 }
 
 article {
-
   display: flex;
   flex-direction: column;
-  width: auto;
-  margin-right: 30px;
-
-
   background-color: white;
 }
 
