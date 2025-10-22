@@ -95,8 +95,7 @@ h2 {
   padding: 0px 30px;
   padding-right: 40px;
   font-size: 16px;
-  margin: 0;
-  margin-bottom: 50px;
+  margin: 20px 0;
 }
 
 .time {
@@ -139,7 +138,7 @@ ul li {
   padding-top: 10px;
   background-color: #c5decd3f;
   border-radius: 10px;
-  margin-right: 15px;
+
 }
 
 .hobbies {
@@ -184,6 +183,117 @@ ul li {
   background-color: black;
   font-size: 14px;
 }
+
+/* --- Mobile phones (Galaxy S10, iPhones, small screens) --- */
+@media (max-width: 480px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  article {
+    margin: 0;
+    padding: 10px;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .banner-image-container {
+    height: 100px;
+    margin: 0;
+  }
+
+  .banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .avatar-socials-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: -40px;
+  }
+
+  .avatar-container {
+    width: 80px;
+    height: 80px;
+    left: 0;
+    top: 0;
+    margin-bottom: 10px;
+  }
+
+  nav {
+    margin: 0;
+    width: 60%;
+    justify-content: space-around;
+  }
+
+  .x-logo,
+  .linkedin-logo,
+  .github-logo {
+    width: 22px;
+  }
+
+  header {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin: 0;
+  }
+
+  .user-role {
+    font-size: 13px;
+    display: block;
+  }
+
+  .bio {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0 15px;
+    text-align: justify;
+  }
+
+  .time {
+    margin: 20px auto;
+    width: 80%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .hobbies-dislikes {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    gap: 20px;
+  }
+
+  .hobbies-lists,
+  .dislike-lists {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .contact-about {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  .contact-about a {
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
 
 @media (min-width: 768px) {
 
